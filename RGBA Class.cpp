@@ -13,10 +13,10 @@ public:
   : m_red(red), m_green(green), m_blue(blue), m_alpha(alpha){
   }
   void print(){
-    std::cout << "r=" << static_cast<int>(m_red) << "\n";
-    std::cout << "g=" << static_cast<int>(m_green) << "\n";
-    std::cout << "b=" << static_cast<int>(m_blue) << "\n";
-    std::cout << "a=" << static_cast<int>(m_alpha) << "\n";
+    std::cout << "r=" << static_cast<int>(m_red) <<
+     << " g=" << static_cast<int>(m_green) << 
+     << " b=" << static_cast<int>(m_blue) << 
+     << " a=" << static_cast<int>(m_alpha) << "\n";
   }
 };
 
